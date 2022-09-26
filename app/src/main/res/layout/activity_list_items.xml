@@ -12,21 +12,21 @@
     tools:context=".ListItemsActivity">
 
     <RadioButton
-        android:text="Radio Button"
+        android:text="@string/radio_button"
         android:layout_columnWeight="1"
         android:layout_gravity="fill">
 
     </RadioButton>
 
     <CheckBox
-        android:text="Check Box"
+        android:text="@string/check_box"
         android:layout_columnWeight="1"
         android:layout_gravity="fill">
 
     </CheckBox>
 
     <Switch
-        android:text="What does this do?"
+        android:text="@string/switch_button"
         android:layout_columnWeight="1"
         android:layout_gravity="fill">
 
