@@ -33,11 +33,9 @@
     </Switch>
 
     <ImageButton
-
         android:layout_columnWeight="1"
-        android:layout_gravity="fill">
-
-    </ImageButton>
+        android:layout_gravity="fill"
+        app:srcCompat="@android:drawable/ic_menu_camera" />
 
 
 </GridLayout>
