@@ -7,4 +7,14 @@
     <string name="radio_button">Radio Button</string>
     <string name="check_box">Check Box</string>
     <string name="switch_button">What does this do?</string>
+    <string name="dialog_message">Do you want to finish the activity?</string>
+    <string name="dialog_title">Finish</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="toast_switch_on">Switch is ON</string>
+    <string name="toast_switch_off">Switch is OFF</string>
+    <string name="toast_invalid_email">Incorrect or empty email</string>
+    <string name="toast_invalid_password">Empty password</string>
+    <string name="toast_MA_response">ListItemsActivity passed: </string>
+    <string name="toast_LIA_response">Here is my response</string>
 </resources>

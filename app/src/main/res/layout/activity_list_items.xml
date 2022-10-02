@@ -21,21 +21,24 @@
     <CheckBox
         android:text="@string/check_box"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill">
+        android:layout_gravity="fill"
+        android:id="@+id/id_checkBox">
 
     </CheckBox>
 
     <Switch
         android:text="@string/switch_button"
         android:layout_columnWeight="1"
-        android:layout_gravity="fill">
+        android:layout_gravity="fill"
+        android:id="@+id/id_switch">
 
     </Switch>
 
     <ImageButton
         android:layout_columnWeight="1"
         android:layout_gravity="fill"
-        app:srcCompat="@android:drawable/ic_menu_camera" />
+        app:srcCompat="@android:drawable/ic_menu_camera"
+        android:id="@+id/id_imageButton"/>
 
 
 </GridLayout>

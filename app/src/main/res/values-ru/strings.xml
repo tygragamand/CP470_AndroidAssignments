@@ -8,4 +8,14 @@
     <string name="radio_button">Переключатель</string>
     <string name="check_box">Галочка</string>
     <string name="switch_button">Что это делает?</string>
+    <string name="dialog_message">Вы хотите закончить операцию?</string>
+    <string name="dialog_title">Закончить</string>
+    <string name="ok">Да</string>
+    <string name="cancel">Нет</string>
+    <string name="toast_switch_on">Включён</string>
+    <string name="toast_switch_off">Выключен</string>
+    <string name="toast_invalid_email">Неправильный или пустой адрес почты</string>
+    <string name="toast_invalid_password">Пустой пароль</string>
+    <string name="toast_MA_response">ListItemsActivity передал: </string>
+    <string name="toast_LIA_response">Вот мой ответ</string>
 </resources>
