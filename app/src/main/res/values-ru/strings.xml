@@ -18,4 +18,6 @@
     <string name="toast_invalid_password">Пустой пароль</string>
     <string name="toast_MA_response">ListItemsActivity передал: </string>
     <string name="toast_LIA_response">Вот мой ответ</string>
+    <string name="chatButton">Начать чат</string>
+    <string name="sendButton">ОТПРАВИТЬ</string>
 </resources>

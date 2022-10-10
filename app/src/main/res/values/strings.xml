@@ -17,4 +17,6 @@
     <string name="toast_invalid_password">Empty password</string>
     <string name="toast_MA_response">ListItemsActivity passed: </string>
     <string name="toast_LIA_response">Here is my response</string>
+    <string name="chatButton">Start Chat</string>
+    <string name="sendButton">SEND</string>
 </resources>

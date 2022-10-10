@@ -19,8 +19,8 @@ public class LoginActivity extends AppCompatActivity {
     private static final String ACTIVITY_NAME = "LoginActivity";
     private static final String KEY_EMAIL = "email";
 
+    //variables
     private EditText edit_email, edit_password;
-
     private SharedPreferences prefs;
 
     @Override
@@ -91,12 +91,13 @@ public class LoginActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    private static boolean isEmailValid(String email) {
+    public static boolean isEmailValid(String email) {
+        if (email == null) {
+            return false;
+        }
         String expression = "^[\\w\\.-]+@([\\w\\-]+\\.)+[A-Z]{2,4}$";
         Pattern pattern = Pattern.compile(expression, Pattern.CASE_INSENSITIVE);
         Matcher matcher = pattern.matcher(email);
         return matcher.matches();
     }
-
-
 }

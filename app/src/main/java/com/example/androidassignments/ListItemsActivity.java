@@ -1,20 +1,18 @@
 package com.example.androidassignments;
 
-import androidx.appcompat.app.AlertDialog;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.Activity;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.widget.CheckBox;
-import android.widget.CompoundButton;
 import android.widget.ImageButton;
 import android.widget.Switch;
 import android.widget.Toast;
+
+import androidx.appcompat.app.AlertDialog;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class ListItemsActivity extends AppCompatActivity {
     //constant
@@ -38,7 +36,6 @@ public class ListItemsActivity extends AppCompatActivity {
         CheckBox checkBox = findViewById(R.id.id_checkBox);
         checkBox.setOnCheckedChangeListener((buttonView, isChecked) -> {
             checkBoxChanged();    });
-
     }
 
     @Override
