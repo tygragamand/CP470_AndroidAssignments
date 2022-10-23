@@ -20,4 +20,10 @@
     <string name="toast_LIA_response">Вот мой ответ</string>
     <string name="chatButton">Начать чат</string>
     <string name="sendButton">ОТПРАВИТЬ</string>
+    <string name="toolbarButton">Тест П.И.</string>
+    <string name="toast_about">Версия 1.0 by Tatiana</string>
+    <string name="pizza_title">Вернуться?</string>
+    <string name="new_message">Новое сообщение</string>
+    <string name="title_activity_test_toolbar">TestToolbar</string>
+
 </resources>

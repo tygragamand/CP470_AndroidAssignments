@@ -30,41 +30,48 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        findViewById(R.id.toolbarButton).setOnClickListener(v -> openTestToolbar());
     }
 
     @Override
-    protected void onResume(){
+    protected void onResume() {
         super.onResume();
         Log.i(ACTIVITY_NAME, "In onResume()");
     }
 
     @Override
-    protected void onStart(){
+    protected void onStart() {
         super.onStart();
         Log.i(ACTIVITY_NAME, "In onStart()");
     }
 
     @Override
-    protected void onPause(){
+    protected void onPause() {
         super.onPause();
         Log.i(ACTIVITY_NAME, "In onPause()");
     }
 
     @Override
-    protected void onStop(){
+    protected void onStop() {
         super.onStop();
         Log.i(ACTIVITY_NAME, "In onStop()");
     }
 
     @Override
-    protected void onDestroy(){
+    protected void onDestroy() {
         super.onDestroy();
         Log.i(ACTIVITY_NAME, "In onDestroy()");
     }
 
-    private void openListItemsActivity(){
+    private void openListItemsActivity() {
         Intent intent = new Intent(MainActivity.this, ListItemsActivity.class);
-        startActivityForResult(intent,REQUEST_CODE);
+        startActivityForResult(intent, REQUEST_CODE);
+    }
+
+    private void openTestToolbar() {
+        Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+        startActivityForResult(intent, REQUEST_CODE);
     }
 
     @Override
@@ -74,11 +81,11 @@ public class MainActivity extends AppCompatActivity {
         if (requestCode == REQUEST_CODE && responseCode == Activity.RESULT_OK) {
             Log.i(ACTIVITY_NAME, "Returned to MainActivity.onActivityResult");
             String messagePassed = data.getStringExtra("Response");
-            Toast.makeText(this,getString(R.string.toast_MA_response) + messagePassed, Toast.LENGTH_LONG).show();
+            Toast.makeText(this, getString(R.string.toast_MA_response) + messagePassed, Toast.LENGTH_LONG).show();
         }
     }
 
-    public void print(String text){
-        Toast.makeText(this,text, Toast.LENGTH_LONG).show();
+    public void print(String text) {
+        Toast.makeText(this, text, Toast.LENGTH_LONG).show();
     }
 }

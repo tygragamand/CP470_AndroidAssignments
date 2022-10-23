@@ -19,4 +19,10 @@
     <string name="toast_LIA_response">Here is my response</string>
     <string name="chatButton">Start Chat</string>
     <string name="sendButton">SEND</string>
+    <string name="toolbarButton">Test Toolbar</string>
+    <string name="toast_about">Version 1.0, by Tatiana</string>
+    <string name="pizza_title">Do you want to go back?</string>
+    <string name="new_message">New Message</string>
+
+    <string name="title_activity_test_toolbar">TestToolbar</string>
 </resources>

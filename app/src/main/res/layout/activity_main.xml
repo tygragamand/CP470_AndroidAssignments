@@ -27,4 +27,11 @@
         android:text="@string/chatButton"
         android:layout_toEndOf="@id/button"/>
 
+    <Button
+        android:id="@+id/toolbarButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toolbarButton"
+        android:layout_toEndOf="@id/chatButton"/>
+
 </RelativeLayout>
