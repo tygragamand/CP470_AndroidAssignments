@@ -34,4 +34,11 @@
         android:text="@string/toolbarButton"
         android:layout_toEndOf="@id/chatButton"/>
 
+    <Button
+        android:id="@+id/weatherButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather"
+        android:layout_below="@id/toolbarButton"/>
+
 </RelativeLayout>

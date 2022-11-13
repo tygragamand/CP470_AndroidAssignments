@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         findViewById(R.id.toolbarButton).setOnClickListener(v -> openTestToolbar());
+
+        findViewById(R.id.weatherButton).setOnClickListener(v -> openWeatherForecast());
     }
 
     @Override
@@ -71,6 +73,11 @@ public class MainActivity extends AppCompatActivity {
 
     private void openTestToolbar() {
         Intent intent = new Intent(MainActivity.this, TestToolbar.class);
+        startActivityForResult(intent, REQUEST_CODE);
+    }
+
+    private void openWeatherForecast(){
+        Intent intent = new Intent(MainActivity.this, WeatherForecast.class);
         startActivityForResult(intent, REQUEST_CODE);
     }
 

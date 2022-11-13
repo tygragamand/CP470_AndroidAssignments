@@ -23,6 +23,44 @@
     <string name="toast_about">Version 1.0, by Tatiana</string>
     <string name="pizza_title">Do you want to go back?</string>
     <string name="new_message">New Message</string>
-
     <string name="title_activity_test_toolbar">TestToolbar</string>
+    <string name="weather">Weather</string>
+    <string name="current_temperature">Current Temperature: </string>
+    <string name="min_temperature">Min Temperature: </string>
+    <string name="max_temperature">Max Temperature: </string>
+    <string name="select_a_canadian_city"><b>Select a Canadian city </b></string>
+
+    <string-array name="cities_array">
+        <item>Barrie</item>
+        <item>Brampton</item>
+        <item>Calgary</item>
+        <item>Cambridge</item>
+        <item>Cornwall</item>
+        <item>Creston</item>
+        <item>Dorval</item>
+        <item>Edmonton</item>
+        <item>Gatineau</item>
+        <item>Halifax</item>
+        <item>Hamilton</item>
+        <item>Hudson Bay</item>
+        <item>Kitchener</item>
+        <item>Kingston</item>
+        <item>London</item>
+        <item>Mississauga</item>
+        <item>Montreal</item>
+        <item>North Bay</item>
+        <item>Ottawa</item>
+        <item>Oshawa</item>
+        <item>Orangeville</item>
+        <item>Peterborough</item>
+        <item>Regina</item>
+        <item>Sydney</item>
+        <item>Thunder Bay</item>
+        <item>Toronto</item>
+        <item>Vancouver</item>
+        <item>Victoria</item>
+        <item>Waterloo</item>
+        <item>Windsor</item>
+        <item>Winnipeg</item>
+    </string-array>
 </resources>
